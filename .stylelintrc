@@ -1,0 +1,29 @@
+{
+  "extends": ["stylelint-config-standard", "stylelint-config-standard-scss"],
+  "rules": {
+    "string-quotes": "single",
+    "scss/at-import-partial-extension": "always",
+    "scss/double-slash-comment-whitespace-inside": "always",
+    "comment-no-empty": null,
+    "scss/comment-no-empty": true,
+    "declaration-no-important": true,
+    "property-no-unknown": [
+      true,
+      {
+        "ignoreProperties": [
+          "composes"
+        ]
+      }
+    ],
+    "max-nesting-depth": 5,
+    "selector-max-compound-selectors": 5,
+    "selector-max-specificity": "1,5,5",
+    "number-leading-zero": null,
+    "indentation": 4,
+    "selector-class-pattern": null
+  },
+  "ignoreFiles": [
+    "app/style/vendor/**/*",
+    "**/*.md"
+  ]
+}

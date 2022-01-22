@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "module": "es6",
+    "target": "es5",
+    "jsx": "react",
+    "lib": ["dom"],
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "allowJs": true,
+    "checkJs": false,
+    "baseUrl": "app/ts",
+    "paths": {
+      "~*": ["*"]
+    },
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true
+  },
+  "exclude": ["node_modules"]
+}
