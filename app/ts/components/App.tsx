@@ -3,7 +3,7 @@ import { hot } from 'react-hot-loader/root'
 import '../../style/app.scss'
 
 const App = () => {
-  return <div>Calendar</div>
+  return <div>Translator</div>
 }
 
 export default hot(App)

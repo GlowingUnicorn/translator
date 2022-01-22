@@ -1,7 +1,7 @@
 {
-  "name": "calend.io",
+  "name": "translator",
   "version": "1.0.0",
-  "description": "A calendar app",
+  "description": "A Bulgarian - English translator combining Google Translate and Rechnik Chitanka.",
   "scripts": {
     "jslint": "eslint -c .eslintrc.json ./*.js app/ts/ --ext js,jsx,ts,tsx",
     "lint": "npm run jslint && npm run stylelint && npm run tslint",
