@@ -73,6 +73,7 @@
     "@google-cloud/translate": "6.3.1",
     "@mui/icons-material": "5.3.0",
     "@mui/material": "5.3.0",
+    "@shrugsy/use-immer-state": "^3.1.2",
     "connected-react-router": "6.9.2",
     "deox": "3.3.1",
     "history": "^4.10.1",

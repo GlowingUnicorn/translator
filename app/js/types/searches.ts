@@ -1,5 +1,5 @@
 export type Search = {
-  content: string
+  searchTerm: string
   source: string
   target: string
 }
