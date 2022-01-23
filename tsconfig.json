@@ -5,12 +5,12 @@
     "module": "es6",
     "target": "es5",
     "jsx": "react",
-    "lib": ["dom"],
+    "lib": ["dom", "es2015"],
     "moduleResolution": "node",
     "noImplicitAny": true,
     "allowJs": true,
     "checkJs": false,
-    "baseUrl": "app/ts",
+    "baseUrl": "app/js",
     "paths": {
       "~*": ["*"]
     },
