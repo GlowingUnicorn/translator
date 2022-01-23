@@ -13,7 +13,10 @@ module.exports = {
   devtool: 'inline-source-map',
   devServer: {
     static: ['./dist'],
-    hot: true
+    hot: true,
+    client: {
+      overlay: false
+    }
   },
   stats: {
     colors: true,
@@ -33,7 +36,7 @@ module.exports = {
   },
   context: __dirname,
   entry: {
-    app: ['./app/ts/index.tsx']
+    app: ['./app/js/index.tsx']
   },
   output: {
     path: path.join(__dirname, '/dist'),
@@ -126,7 +129,7 @@ module.exports = {
   resolve: {
     modules: ['node_modules', 'vendor'],
     extensions: ['.ts', '.tsx', '.js', '.jsx', '.json', '.css', '.scss', '.less'],
-    alias: Object.assign({}, getAliasesForDir('./app/ts/'), {
+    alias: Object.assign({}, getAliasesForDir('./app/js/'), {
       'react-dom': '@hot-loader/react-dom'
     })
   }

@@ -1,0 +1,3 @@
+GET https://translation.googleapis.com/language/translate/v2/languages
+Accept: application/json
+Authorization: Bearer f6e0ebe1ea1cb38cb9b2ea4873995c535ab2573d
